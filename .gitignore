@@ -1,0 +1,9 @@
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Windows oddities
+NUL
