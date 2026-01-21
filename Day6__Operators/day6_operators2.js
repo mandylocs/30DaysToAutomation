@@ -4,7 +4,7 @@
 
 let totalTest = 25;
 let passed = 22;
-let successRate = (pasued / totalTests) * 100;
+let successRate = (passed / totalTest) * 100;
 console.log("Success Rate:" + successRate + "%"); // used to calculate metrics or pass rates
 
 /* Assignment Operators- Used to assing and update varibale values
@@ -87,7 +87,5 @@ let apiStatusCode = 200;
 if (credentialsValid && dashboardLoaded && apiStatusCode === 200) {
     console.log("Access granted. Welcome to your dashboard!");
 } else {
-    console.log("Access denied or an error occurred."); // useful for comprehensive test validations
-} //This is a real-world scenario where multiple operators work together to ensure robust test logic.
-//end script
-
+    console.log("Access denied or an error occurred.");
+}
